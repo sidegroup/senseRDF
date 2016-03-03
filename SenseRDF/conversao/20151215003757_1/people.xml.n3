@@ -1,0 +1,13 @@
+@prefix foaf:    <http://www.google.com.br/rdf/> .
+@prefix mont:    <http://purl.org/ontology/mo/> .
+
+<http://wwww.sidereserarchgroup.com.br/usesSound>
+      foaf:usesSound <http://wwww.sidereserarchgroup.com.br/usesSound/usesSound1> .
+
+<http://wwww.sidereserarchgroup.com.br/usesSound/usesSound1>
+      foaf:givenname "Luiz Carlos" ;
+      foaf:lastName "Rodrigues Chaves" ;
+      foaf:name "Luiz Carlos Rodrigues Chaves" .
+
+<http://wwww.sidereserarchgroup.com.br/>
+      foaf:usesSound <http://wwww.sidereserarchgroup.com.br/usesSound> .

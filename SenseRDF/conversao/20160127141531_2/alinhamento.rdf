@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+         xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+         xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+         xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>?*</type>
+  <method>fr.inrialpes.exmo.align.impl.method.StringDistAlignment</method>
+  <onto1>
+    <Ontology rdf:about="http://wwww.sidereserarchgroup.com.br/vconversao/20160127141531_2//">
+      <location>file:/C:/Users/fellipe/Downloads/senserdfnew/SenseRDF//conversao/20160127141531_2/owlmetadados.owl</location>
+      <formalism>
+        <Formalism align:name="OWL2.0" align:uri="http://www.w3.org/2002/07/owl#"/>
+      </formalism>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20160127141531_2//">
+      <location>file:/C:/Users/fellipe/Downloads/senserdfnew/SenseRDF/conversao/20160127141531_2/owlvocabularios.owl</location>
+      <formalism>
+        <Formalism align:name="OWL2.0" align:uri="http://www.w3.org/2002/07/owl#"/>
+      </formalism>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://wwww.sidereserarchgroup.com.br/vconversao/20160127141531_2//#PPais'/>
+      <entity2 rdf:resource='http://www.sideresearchgroup.com.br/internalontology/vconversao/20160127141531_2//foaf#PersonalProfileDocument'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.050000000000000044</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

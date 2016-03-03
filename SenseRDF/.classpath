@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry exported="true" kind="lib" path="API/owlapi-3.4.2/lib/mockito-all-1.9.5-rc1.jar"/>
+	<classpathentry exported="true" kind="lib" path="API/owlapi-3.4.2/owlapi-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="API/jdom-2.0.4/lib/jaxen-1.1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="API/jdom-2.0.4/lib/xercesImpl.jar"/>
+	<classpathentry exported="true" kind="lib" path="API/jdom-2.0.4/lib/xml-apis.jar"/>
+	<classpathentry exported="true" kind="lib" path="API/jdom-2.0.4/jdom-2.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="API/itext-5.3.4/itext-pdfa-5.3.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="API/itext-5.3.4/itext-xtra-5.3.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="API/itext-5.3.4/itextpdf-5.3.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="API/apache-jena-2.7.4/lib/commons-codec-1.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="API/apache-jena-2.7.4/lib/httpclient-4.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="API/apache-jena-2.7.4/lib/httpcore-4.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="API/apache-jena-2.7.4/lib/jena-arq-2.9.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="API/apache-jena-2.7.4/lib/jena-core-2.7.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="API/apache-jena-2.7.4/lib/jena-iri-0.9.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="API/apache-jena-2.7.4/lib/jena-tdb-0.9.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="API/apache-jena-2.7.4/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/getopt/getopt.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/google-translate/google-api-translate-java.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/google-translate/json-20090211.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/iddl/iddl.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/jade/http.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/jade/iiop.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/jade/jade.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/jetty/jetty-util.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/jetty/jetty.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/xerces/resolver.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/xerces/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/xerces/xml-apis.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/xsdlib/relaxngDatatype.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/xsdlib/xsdlib.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/align.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/alignsvc.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/ontowrap.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/procalign.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/jwnl/jwnl.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/log4j/commons-logging.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/lucene/lucene-core.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/ontosim/ontosim.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/oyster/oyster2.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/servlet/servlet-api.jar"/>
+	<classpathentry kind="lib" path="API/align-4.3/lib/skosapi/skosapi.jar"/>
+	<classpathentry kind="lib" path="API/apache-commons/commons-validator-1.4.0.jar"/>
+	<classpathentry kind="lib" path="API/db4o-8.0.249.16098-core-java5.jar"/>
+	<classpathentry kind="lib" path="gson-1.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fellipe/Downloads/json-simple-1.1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

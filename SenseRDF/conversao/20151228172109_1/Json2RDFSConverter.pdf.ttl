@@ -1,0 +1,7 @@
+@prefix dc:      <http://www.dc.com.br/> .
+
+<http://wwww.sidereserarchgroup.com.br/>
+      dc:creator "D:20140716122951+02'00'" , "TeX" ;
+      dc:date "D:20140716122951+02'00'" ;
+      dc:publisher "This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) kpathsea version 6.1.0" , "pdfTeX-1.40.13" ;
+      dc:type "False" .

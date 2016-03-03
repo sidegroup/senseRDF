@@ -1,0 +1,260 @@
+@prefix ownMusica:  <http://www.sideresearchgroup.com.br/internal/ownMusica/> .
+@prefix mont:    <http://purl.org/ontology/mo/> .
+@prefix foaf:    <http://www.google.com.br/rdf/> .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track5/artist2>
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho" ;
+      foaf:mbox "5e2c3b33-b734-41ba-ac71-2148338840f6" ;
+      foaf:name "Zé Ramalho" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track12/artist1>
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho" ;
+      foaf:mbox "5e2c3b33-b734-41ba-ac71-2148338840f6" ;
+      foaf:name "Zé Ramalho" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track1/artist1>
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho" ;
+      foaf:mbox "5e2c3b33-b734-41ba-ac71-2148338840f6" ;
+      foaf:name "Zé Ramalho" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track4/artist1>
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho" ;
+      foaf:mbox "5e2c3b33-b734-41ba-ac71-2148338840f6" ;
+      foaf:name "Zé Ramalho" .
+
+<http://wwww.sidereserarchgroup.com.br/>
+      mont:lfm <http://wwww.sidereserarchgroup.com.br/lfm0> .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track1>
+      mont:Arranger "1" ;
+      mont:Stream "0" ;
+      mont:artist <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track1/artist1> ;
+      mont:duration "294" ;
+      mont:track "0" ;
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho/_/Admir%C3%A1vel+Gado+Novo" ;
+      foaf:mbox "230cf3da-87ff-4bed-b2fd-ac065a21b382" ;
+      foaf:name "Admirável Gado Novo" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track13/artist2>
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho" ;
+      foaf:mbox "5e2c3b33-b734-41ba-ac71-2148338840f6" ;
+      foaf:name "Zé Ramalho" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track9/artist1>
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho" ;
+      foaf:mbox "5e2c3b33-b734-41ba-ac71-2148338840f6" ;
+      foaf:name "Zé Ramalho" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/topic/tag4>
+      mont:usesWork "http://www.last.fm/tag/silvio%20passos" ;
+      foaf:name "silvio passos" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/topic/tag2>
+      mont:usesWork "http://www.last.fm/tag/kricamorena" ;
+      foaf:name "kricamorena" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track11>
+      mont:Arranger "11" ;
+      mont:Stream "0" ;
+      mont:artist <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track11/artist1> ;
+      mont:duration "200" ;
+      mont:track "0" ;
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho/_/Pelo+Vinho+E+Pelo+P%C3%A3o" ;
+      foaf:mbox "26555f47-ea36-47aa-b017-6cf9cbaf24b7" ;
+      foaf:name "Pelo Vinho E Pelo Pão" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track9>
+      mont:Arranger "9" ;
+      mont:Stream "0" ;
+      mont:artist <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track9/artist1> ;
+      mont:duration "143" ;
+      mont:track "0" ;
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho/_/Bicho+De+7+Cabe%C3%A7as" ;
+      foaf:mbox "72fb53d2-7d25-40ad-af0b-fb0f656adee6" ;
+      foaf:name "Bicho De 7 Cabeças" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track7>
+      mont:Arranger "7" ;
+      mont:Stream "0" ;
+      mont:artist <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track7/artist1> ;
+      mont:duration "324" ;
+      mont:track "0" ;
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho/_/A+Dan%C3%A7a+Das+Borboletas" ;
+      foaf:mbox "21a9bb73-df4a-4cf0-8c86-222ec346e53d" ;
+      foaf:name "A Dança Das Borboletas" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/topic>
+      mont:tag <http://wwww.sidereserarchgroup.com.br/lfm0/album1/topic/tag3> , <http://wwww.sidereserarchgroup.com.br/lfm0/album1/topic/tag4> , <http://wwww.sidereserarchgroup.com.br/lfm0/album1/topic/tag1> , <http://wwww.sidereserarchgroup.com.br/lfm0/album1/topic/tag2> , <http://wwww.sidereserarchgroup.com.br/lfm0/album1/topic/tag5> .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track13>
+      mont:Arranger "13" ;
+      mont:Stream "0" ;
+      mont:artist <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track13/artist2> ;
+      mont:duration <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track13/duration> ;
+      mont:track "0" ;
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho/_/Garoto+de+aluguel+(T%C3%A1xi+Boy)" ;
+      foaf:mbox "901095d1-f8a5-4099-a496-7dd8db474917" ;
+      foaf:name "Garoto de aluguel (Táxi Boy)" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track3/artist1>
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho" ;
+      foaf:mbox "5e2c3b33-b734-41ba-ac71-2148338840f6" ;
+      foaf:name "Zé Ramalho" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track6/artist1>
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho" ;
+      foaf:mbox "5e2c3b33-b734-41ba-ac71-2148338840f6" ;
+      foaf:name "Zé Ramalho" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track5>
+      mont:Arranger "5" ;
+      mont:Stream "0" ;
+      mont:artist <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track5/artist2> ;
+      mont:duration <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track5/duration> ;
+      mont:track "0" ;
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho/_/Bai%C3%A3o+%2F+Imbalan%C3%A7a+%2F+Asa+branca" ;
+      foaf:mbox "496b8bbd-3dbf-4b71-8a63-1c2a06dd3554" ;
+      foaf:name "Baião / Imbalança / Asa branca" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track3>
+      mont:Arranger "3" ;
+      mont:Stream "0" ;
+      mont:artist <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track3/artist1> ;
+      mont:duration "298" ;
+      mont:track "0" ;
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho/_/Av%C3%B4hai" ;
+      foaf:mbox "10e2340a-0e9a-45b7-9fb6-7421b8e5d05f" ;
+      foaf:name "Avôhai" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1>
+      mont:Listener "7121" ;
+      mont:artist "Zé Ramalho" ;
+      mont:release <http://wwww.sidereserarchgroup.com.br/lfm0/album1/release> ;
+      mont:topic <http://wwww.sidereserarchgroup.com.br/lfm0/album1/topic> ;
+      mont:track <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track> ;
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho/Perfil" ;
+      foaf:Image "http://userserve-ak.last.fm/serve/64s/42131897.jpg" , "http://userserve-ak.last.fm/serve/174s/42131897.jpg" , "http://userserve-ak.last.fm/serve/34s/42131897.jpg" , "http://userserve-ak.last.fm/serve/_/42131897/Perfil.jpg" , "http://userserve-ak.last.fm/serve/300x300/42131897.jpg" ;
+      foaf:account "72424" ;
+      foaf:mbox "629a15df-8f89-4b4a-862c-3cbea243bc10" ;
+      foaf:name "Perfil" ;
+      ownMusica:id "2363167" ;
+      ownMusica:size "mega" , "large" , "small" , "extralarge" , "medium" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track8/artist1>
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho" ;
+      foaf:mbox "5e2c3b33-b734-41ba-ac71-2148338840f6" ;
+      foaf:name "Zé Ramalho" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track2/artist1>
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho" ;
+      foaf:mbox "5e2c3b33-b734-41ba-ac71-2148338840f6" ;
+      foaf:name "Zé Ramalho" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track11/artist1>
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho" ;
+      foaf:mbox "5e2c3b33-b734-41ba-ac71-2148338840f6" ;
+      foaf:name "Zé Ramalho" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track14/artist1>
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho" ;
+      foaf:mbox "5e2c3b33-b734-41ba-ac71-2148338840f6" ;
+      foaf:name "Zé Ramalho" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track>
+      mont:track <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track1> , <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track10> , <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track11> , <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track9> , <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track8> , <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track12> , <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track7> , <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track13> , <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track14> , <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track6> , <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track5> , <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track4> , <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track3> , <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track2> .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0>
+      mont:album <http://wwww.sidereserarchgroup.com.br/lfm0/album1> ;
+      foaf:status "ok" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track10/artist1>
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho" ;
+      foaf:mbox "5e2c3b33-b734-41ba-ac71-2148338840f6" ;
+      foaf:name "Zé Ramalho" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/topic/tag3>
+      mont:usesWork "http://www.last.fm/tag/argeu%20california%20seixas" ;
+      foaf:name "argeu california seixas" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/topic/tag1>
+      mont:usesWork "http://www.last.fm/tag/albums%20i%20own" ;
+      foaf:name "albums i own" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track10>
+      mont:Arranger "10" ;
+      mont:Stream "0" ;
+      mont:artist <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track10/artist1> ;
+      mont:duration "165" ;
+      mont:track "0" ;
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho/_/Ave+De+Prata" ;
+      foaf:mbox "4f4bab82-960c-4f87-ac15-9938d0b23b8c" ;
+      foaf:name "Ave De Prata" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track8>
+      mont:Arranger "8" ;
+      mont:Stream "0" ;
+      mont:artist <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track8/artist1> ;
+      mont:duration "266" ;
+      mont:track "0" ;
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho/_/A+Peleja+Do+Diabo+Com+O+Dono+Do+C%C3%A9u" ;
+      foaf:mbox "01509095-aa1d-4a45-a478-0d88334292ae" ;
+      foaf:name "A Peleja Do Diabo Com O Dono Do Céu" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track12>
+      mont:Arranger "12" ;
+      mont:Stream "0" ;
+      mont:artist <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track12/artist1> ;
+      mont:duration "289" ;
+      mont:track "0" ;
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho/_/Krypt%C3%B4nia" ;
+      foaf:mbox "14591be0-2114-4db4-af59-499eb3f4727f" ;
+      foaf:name "Kryptônia" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/topic/tag5>
+      mont:usesWork "http://www.last.fm/tag/wilson%20seixas" ;
+      foaf:name "wilson seixas" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track7/artist1>
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho" ;
+      foaf:mbox "5e2c3b33-b734-41ba-ac71-2148338840f6" ;
+      foaf:name "Zé Ramalho" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track6>
+      mont:Arranger "6" ;
+      mont:Stream "0" ;
+      mont:artist <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track6/artist1> ;
+      mont:duration "233" ;
+      mont:track "0" ;
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho/_/Vila+Do+Sossego" ;
+      foaf:mbox "40467858-9c2a-484a-a4d3-563700609916" ;
+      foaf:name "Vila Do Sossego" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track14>
+      mont:Arranger "14" ;
+      mont:Stream "0" ;
+      mont:artist <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track14/artist1> ;
+      mont:duration "238" ;
+      mont:track "0" ;
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho/_/Eternas+Ondas" ;
+      foaf:mbox "1c014547-714a-4b51-a79e-5baf1d0671a9" ;
+      foaf:name "Eternas Ondas" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track4>
+      mont:Arranger "4" ;
+      mont:Stream "0" ;
+      mont:artist <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track4/artist1> ;
+      mont:duration "279" ;
+      mont:track "0" ;
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho/_/Frevo+Mulher" ;
+      foaf:mbox "20106145-1d8d-432c-bcab-deb17a32f902" ;
+      foaf:name "Frevo Mulher" .
+
+<http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track2>
+      mont:Arranger "2" ;
+      mont:Stream "0" ;
+      mont:artist <http://wwww.sidereserarchgroup.com.br/lfm0/album1/track/track2/artist1> ;
+      mont:duration "202" ;
+      mont:track "0" ;
+      mont:usesWork "http://www.last.fm/music/Z%C3%A9+Ramalho/_/Mist%C3%A9rios+da+meia-noite" ;
+      foaf:mbox "26b5ab85-fca2-4dea-947e-e03f5ffabd79" ;
+      foaf:name "Mistérios da meia-noite" .

@@ -1,0 +1,13 @@
+@prefix ownPublicacao:  <http://www.sideresearchgroup.com.br/internal/ownPublicacao/> .
+@prefix dc:      <http://www.dc.com.br/> .
+
+<http://wwww.sidereserarchgroup.com.br/>
+      dc:creator "Microsoft® Office Word 2007" , "D:20131213173354" ;
+      dc:date "D:20131213173354" ;
+      dc:publisher "Microsoft® Office Word 2007" ;
+      dc:subject " " ;
+      dc:title " " ;
+      ownPublicacao:author
+              "ifpb" ;
+      ownPublicacao:keywords
+              " " .

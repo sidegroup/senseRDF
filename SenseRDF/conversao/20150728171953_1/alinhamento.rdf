@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+         xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+         xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+         xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>?*</type>
+  <method>fr.inrialpes.exmo.align.impl.method.StringDistAlignment</method>
+  <onto1>
+    <Ontology rdf:about="http://wwww.sidereserarchgroup.com.br/vconversao/20150728171953_1//">
+      <location>file:/F:/senserdf/SenseRDF//conversao/20150728171953_1/owlmetadados.owl</location>
+      <formalism>
+        <Formalism align:name="OWL2.0" align:uri="http://www.w3.org/2002/07/owl#"/>
+      </formalism>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728171953_1//">
+      <location>file:/F:/senserdf/SenseRDF/conversao/20150728171953_1/owlvocabularios.owl</location>
+      <formalism>
+        <Formalism align:name="OWL2.0" align:uri="http://www.w3.org/2002/07/owl#"/>
+      </formalism>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://wwww.sidereserarchgroup.com.br/vconversao/20150728171953_1//#first_name'/>
+      <entity2 rdf:resource='http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728171953_1//foaf#firstName'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://wwww.sidereserarchgroup.com.br/vconversao/20150728171953_1//#picture'/>
+      <entity2 rdf:resource='http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728171953_1//foaf#depicts'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6800804828973843</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://wwww.sidereserarchgroup.com.br/vconversao/20150728171953_1//#member'/>
+      <entity2 rdf:resource='http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728171953_1//foaf#member'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://wwww.sidereserarchgroup.com.br/vconversao/20150728171953_1//#members'/>
+      <entity2 rdf:resource='http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728171953_1//foaf#member'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.976923076923077</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://wwww.sidereserarchgroup.com.br/vconversao/20150728171953_1//#bio'/>
+      <entity2 rdf:resource='http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728171953_1//foaf#birthday'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.09999999999999998</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://wwww.sidereserarchgroup.com.br/vconversao/20150728171953_1//#email'/>
+      <entity2 rdf:resource='http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728171953_1//foaf#thumbnail'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.5693581780538302</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://wwww.sidereserarchgroup.com.br/vconversao/20150728171953_1//#last_name'/>
+      <entity2 rdf:resource='http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728171953_1//foaf#lastName'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

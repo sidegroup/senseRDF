@@ -1,0 +1,75 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://www.dc.com.br/"
+    xmlns:ownPublicacao="http://www.sideresearchgroup.com.br/internal/ownPublicacao/"
+    xmlns:foaf="http://www.google.com.br/rdf/" > 
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/language/language1/creator1">
+    <foaf:tipjar>Av.</foaf:tipjar>
+    <foaf:familyName>Edit. Erica</foaf:familyName>
+    <dc:rights>A</dc:rights>
+    <foaf:homepage>Erica</foaf:homepage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/language/language4/creator1">
+    <foaf:tipjar>Logradouro</foaf:tipjar>
+    <foaf:familyName>Edit. Campus</foaf:familyName>
+    <dc:rights>B</dc:rights>
+    <foaf:homepage>Campus</foaf:homepage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/language/language2/creator1">
+    <foaf:tipjar>Logradouro</foaf:tipjar>
+    <foaf:familyName>Edit. Campus</foaf:familyName>
+    <dc:rights>B</dc:rights>
+    <foaf:homepage>Campus</foaf:homepage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/language">
+    <foaf:language rdf:resource="http://wwww.sidereserarchgroup.com.br/language/language4"/>
+    <foaf:language rdf:resource="http://wwww.sidereserarchgroup.com.br/language/language3"/>
+    <foaf:language rdf:resource="http://wwww.sidereserarchgroup.com.br/language/language2"/>
+    <foaf:language rdf:resource="http://wwww.sidereserarchgroup.com.br/language/language1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/language/language4">
+    <foaf:creator rdf:resource="http://wwww.sidereserarchgroup.com.br/language/language4/creator1"/>
+    <dc:identifier>13</dc:identifier>
+    <foaf:isPrimaryTopicOf>4</foaf:isPrimaryTopicOf>
+    <ownPublicacao:author>Carlota</ownPublicacao:author>
+    <ownPublicacao:author>Joaquim Silva</ownPublicacao:author>
+    <foaf:publications>2010</foaf:publications>
+    <foaf:title>Web Services</foaf:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/language/language3/creator1">
+    <foaf:tipjar>Avenida</foaf:tipjar>
+    <foaf:familyName>Edit. Elsevier</foaf:familyName>
+    <dc:rights>Cruz das Armas</dc:rights>
+    <foaf:homepage>Alguma coisa</foaf:homepage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/language/language3">
+    <foaf:creator rdf:resource="http://wwww.sidereserarchgroup.com.br/language/language3/creator1"/>
+    <dc:identifier>12</dc:identifier>
+    <foaf:isPrimaryTopicOf>3</foaf:isPrimaryTopicOf>
+    <ownPublicacao:author>Carla</ownPublicacao:author>
+    <ownPublicacao:author>Maria</ownPublicacao:author>
+    <ownPublicacao:author>Ana</ownPublicacao:author>
+    <foaf:publications>2014</foaf:publications>
+    <foaf:title>.NET</foaf:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/language/language2">
+    <foaf:creator rdf:resource="http://wwww.sidereserarchgroup.com.br/language/language2/creator1"/>
+    <dc:identifier>11</dc:identifier>
+    <foaf:isPrimaryTopicOf>2</foaf:isPrimaryTopicOf>
+    <ownPublicacao:author>José</ownPublicacao:author>
+    <foaf:publications>2012</foaf:publications>
+    <foaf:title>ASP</foaf:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/">
+    <foaf:language rdf:resource="http://wwww.sidereserarchgroup.com.br/language"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/language/language1">
+    <foaf:creator rdf:resource="http://wwww.sidereserarchgroup.com.br/language/language1/creator1"/>
+    <dc:identifier>10</dc:identifier>
+    <foaf:isPrimaryTopicOf>1</foaf:isPrimaryTopicOf>
+    <ownPublicacao:author>Maria</ownPublicacao:author>
+    <ownPublicacao:author>Ana</ownPublicacao:author>
+    <foaf:publications>2012</foaf:publications>
+    <foaf:title>PHP</foaf:title>
+  </rdf:Description>
+</rdf:RDF>

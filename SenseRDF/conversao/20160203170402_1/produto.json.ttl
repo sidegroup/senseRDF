@@ -1,0 +1,7 @@
+@prefix foaf:    <http://www.google.com.br/rdf/> .
+
+<http://wwww.sidereserarchgroup.com.br/>
+      foaf:Group <http://wwww.sidereserarchgroup.com.br/Group> ;
+      foaf:currentProject <http://wwww.sidereserarchgroup.com.br/currentProject> ;
+      foaf:name <http://wwww.sidereserarchgroup.com.br/name> ;
+      foaf:status <http://wwww.sidereserarchgroup.com.br/status> .

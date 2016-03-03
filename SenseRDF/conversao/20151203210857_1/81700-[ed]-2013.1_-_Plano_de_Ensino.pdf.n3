@@ -1,0 +1,12 @@
+@prefix ownPublicacao:  <http://www.sideresearchgroup.com.br/internal/ownPublicacao/> .
+@prefix dc:      <http://www.dc.com.br/> .
+
+<http://wwww.sidereserarchgroup.com.br/>
+      dc:creator "" ;
+      dc:publisher "" ;
+      dc:subject "" ;
+      dc:title "" ;
+      ownPublicacao:author
+              "" ;
+      ownPublicacao:keywords
+              "" .

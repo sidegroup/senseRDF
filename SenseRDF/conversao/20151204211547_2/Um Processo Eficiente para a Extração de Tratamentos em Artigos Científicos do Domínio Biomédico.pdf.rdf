@@ -1,0 +1,15 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://www.dc.com.br/"
+    xmlns:ownPublicacao="http://www.sideresearchgroup.com.br/internal/ownPublicacao/" > 
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/">
+    <dc:subject></dc:subject>
+    <dc:date></dc:date>
+    <dc:title></dc:title>
+    <ownPublicacao:author></ownPublicacao:author>
+    <ownPublicacao:Keywords></ownPublicacao:Keywords>
+    <dc:publisher></dc:publisher>
+    <ownPublicacao:keywords></ownPublicacao:keywords>
+    <dc:creator></dc:creator>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,14 @@
+@prefix foaf:    <http://www.google.com.br/rdf/> .
+
+<http://wwww.sidereserarchgroup.com.br/PersonalProfileDocument>
+      foaf:PersonalProfileDocument
+              <http://wwww.sidereserarchgroup.com.br/PersonalProfileDocument/PersonalProfileDocument1> .
+
+<http://wwww.sidereserarchgroup.com.br/PersonalProfileDocument/PersonalProfileDocument1>
+      foaf:givenname "Luiz Carlos" ;
+      foaf:lastName "Rodrigues Chaves" ;
+      foaf:name "Luiz Carlos Rodrigues Chaves" .
+
+<http://wwww.sidereserarchgroup.com.br/>
+      foaf:PersonalProfileDocument
+              <http://wwww.sidereserarchgroup.com.br/PersonalProfileDocument> .

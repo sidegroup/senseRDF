@@ -1,0 +1,12 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://www.dc.com.br/"
+    xmlns:foaf="http://www.google.com.br/rdf/" > 
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/">
+    <dc:creator></dc:creator>
+    <foaf:homepage></foaf:homepage>
+    <dc:date></dc:date>
+    <foaf:title></foaf:title>
+    <foaf:geekcode></foaf:geekcode>
+  </rdf:Description>
+</rdf:RDF>

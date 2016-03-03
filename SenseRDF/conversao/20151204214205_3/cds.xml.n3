@@ -1,0 +1,9 @@
+@prefix foaf:    <http://www.google.com.br/rdf/> .
+@prefix dc:      <http://www.dc.com.br/> .
+
+<http://wwww.sidereserarchgroup.com.br/>
+      dc:creator "" ;
+      dc:date "" ;
+      foaf:geekcode "" ;
+      foaf:homepage "" ;
+      foaf:title "" .

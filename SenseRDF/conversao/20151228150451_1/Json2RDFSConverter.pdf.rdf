@@ -1,0 +1,12 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://www.dc.com.br/" > 
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/">
+    <dc:type>False</dc:type>
+    <dc:date>D:20140716122951+02'00'</dc:date>
+    <dc:creator>TeX</dc:creator>
+    <dc:publisher>pdfTeX-1.40.13</dc:publisher>
+    <dc:creator>D:20140716122951+02'00'</dc:creator>
+    <dc:publisher>This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) kpathsea version 6.1.0</dc:publisher>
+  </rdf:Description>
+</rdf:RDF>

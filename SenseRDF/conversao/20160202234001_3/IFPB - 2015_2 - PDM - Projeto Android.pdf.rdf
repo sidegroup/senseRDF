@@ -1,0 +1,8 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://www.google.com.br/rdf/" > 
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/">
+    <foaf:Project>doPDF Ver 7.3 Build 391 (unknown Windows version - Version: 10.0.10240 (x64))</foaf:Project>
+    <foaf:publications>D:20151222075918-03'00'</foaf:publications>
+  </rdf:Description>
+</rdf:RDF>

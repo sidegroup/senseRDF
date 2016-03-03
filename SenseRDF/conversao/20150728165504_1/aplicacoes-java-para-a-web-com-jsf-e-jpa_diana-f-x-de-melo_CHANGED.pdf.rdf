@@ -1,0 +1,17 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://www.dc.com.br/"
+    xmlns:ownPublicacao="http://www.sideresearchgroup.com.br/internal/ownPublicacao/" > 
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/">
+    <ownPublicacao:keywords>asdfasdf</ownPublicacao:keywords>
+    <dc:subject>asdfasdfasdf</dc:subject>
+    <dc:date>D:20150728164910-03'00'</dc:date>
+    <dc:publisher>This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) kpathsea version 6.1.1</dc:publisher>
+    <dc:publisher>pdfTeX-1.40.14; modified using iText® 5.3.4 ©2000-2012 1T3XT BVBA (AGPL-version)</dc:publisher>
+    <ownPublicacao:author>asdfasdf</ownPublicacao:author>
+    <dc:title>asdfasdf</dc:title>
+    <dc:creator>LaTeX with hyperref package</dc:creator>
+    <dc:type>False</dc:type>
+    <dc:creator>D:20140408164654-03'00'</dc:creator>
+  </rdf:Description>
+</rdf:RDF>

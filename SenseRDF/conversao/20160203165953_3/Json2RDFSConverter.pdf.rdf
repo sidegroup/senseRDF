@@ -1,0 +1,12 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://www.google.com.br/rdf/" > 
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/">
+    <foaf:thumbnail>False</foaf:thumbnail>
+    <foaf:msnChatID>D:20140716122951+02'00'</foaf:msnChatID>
+    <foaf:currentProject>TeX</foaf:currentProject>
+    <foaf:Project>pdfTeX-1.40.13</foaf:Project>
+    <foaf:publications>D:20140716122951+02'00'</foaf:publications>
+    <foaf:Person>This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) kpathsea version 6.1.0</foaf:Person>
+  </rdf:Description>
+</rdf:RDF>

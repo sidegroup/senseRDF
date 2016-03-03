@@ -1,0 +1,10 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://www.google.com.br/rdf/" > 
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/">
+    <foaf:currentProject rdf:resource="http://wwww.sidereserarchgroup.com.br/currentProject"/>
+    <foaf:Group rdf:resource="http://wwww.sidereserarchgroup.com.br/Group"/>
+    <foaf:name rdf:resource="http://wwww.sidereserarchgroup.com.br/name"/>
+    <foaf:status rdf:resource="http://wwww.sidereserarchgroup.com.br/status"/>
+  </rdf:Description>
+</rdf:RDF>

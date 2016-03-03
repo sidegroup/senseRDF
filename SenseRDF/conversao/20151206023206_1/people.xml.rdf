@@ -1,0 +1,5 @@
+<http://wwww.sidereserarchgroup.com.br/PersonalProfileDocument/PersonalProfileDocument1> <http://www.google.com.br/rdf/lastName> "Rodrigues Chaves" .
+<http://wwww.sidereserarchgroup.com.br/PersonalProfileDocument/PersonalProfileDocument1> <http://www.google.com.br/rdf/givenname> "Luiz Carlos" .
+<http://wwww.sidereserarchgroup.com.br/PersonalProfileDocument/PersonalProfileDocument1> <http://www.google.com.br/rdf/name> "Luiz Carlos Rodrigues Chaves" .
+<http://wwww.sidereserarchgroup.com.br/> <http://www.google.com.br/rdf/PersonalProfileDocument> <http://wwww.sidereserarchgroup.com.br/PersonalProfileDocument> .
+<http://wwww.sidereserarchgroup.com.br/PersonalProfileDocument> <http://www.google.com.br/rdf/PersonalProfileDocument> <http://wwww.sidereserarchgroup.com.br/PersonalProfileDocument/PersonalProfileDocument1> .

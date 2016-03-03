@@ -1,0 +1,9 @@
+@prefix foaf:    <http://www.google.com.br/rdf/> .
+
+<http://wwww.sidereserarchgroup.com.br/>
+      foaf:birthday "" ;
+      foaf:depicts "" ;
+      foaf:firstName "" ;
+      foaf:lastName "" ;
+      foaf:member "" ;
+      foaf:thumbnail "" .

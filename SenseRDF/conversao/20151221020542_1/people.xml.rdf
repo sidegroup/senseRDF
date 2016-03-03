@@ -1,0 +1,16 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://www.google.com.br/rdf/"
+    xmlns:mont="http://purl.org/ontology/mo/" > 
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/usesSound">
+    <foaf:usesSound rdf:resource="http://wwww.sidereserarchgroup.com.br/usesSound/usesSound1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/usesSound/usesSound1">
+    <foaf:lastName>Rodrigues Chaves</foaf:lastName>
+    <foaf:givenname>Luiz Carlos</foaf:givenname>
+    <foaf:name>Luiz Carlos Rodrigues Chaves</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/">
+    <foaf:usesSound rdf:resource="http://wwww.sidereserarchgroup.com.br/usesSound"/>
+  </rdf:Description>
+</rdf:RDF>

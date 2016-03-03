@@ -1,0 +1,17 @@
+Passo a passo SenseRDF
+
+1)Adicione vocabulários. Em gerenciar vocabulários
+Nome
+Prefixo
+Namespaces
+Ex. 
+DC: http://www.dc.com.br/
+Foaf: http://www.google.com.br/rdf/
+
+2)Adicione um domínio relacionando um vocabulário, ou mais, existente a ele
+
+3)Vai em opções e escolhe o domínio que deseja utilizar
+
+4)Carrega um arquivo xml, pdf ou json
+
+5)Pede para gerar um rdf

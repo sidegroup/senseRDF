@@ -1,0 +1,12 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://www.google.com.br/rdf/" > 
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/PersonalProfileDocument0">
+    <foaf:lastName>Rodrigues Chaves</foaf:lastName>
+    <foaf:givenname>Luiz Carlos</foaf:givenname>
+    <foaf:name>Luiz Carlos Rodrigues Chaves</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wwww.sidereserarchgroup.com.br/">
+    <foaf:PersonalProfileDocument rdf:resource="http://wwww.sidereserarchgroup.com.br/PersonalProfileDocument0"/>
+  </rdf:Description>
+</rdf:RDF>

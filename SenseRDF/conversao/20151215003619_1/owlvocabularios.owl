@@ -1,0 +1,4474 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//"
+     xml:base="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Agent -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Agent"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Document -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Document"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Group -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Group"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Image -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Image"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#LabelProperty -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#LabelProperty"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#OnlineAccount -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#OnlineAccount"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#OnlineChatAccount -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#OnlineChatAccount"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#OnlineEcommerceAccount -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#OnlineEcommerceAccount"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#OnlineGamingAccount -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#OnlineGamingAccount"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Organization -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Organization"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Person -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Person"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#PersonalProfileDocument -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#PersonalProfileDocument"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Project -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Project"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#account -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#account"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#accountName -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#accountName"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#accountServiceHomepage -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#accountServiceHomepage"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#age -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#age"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#aimChatID -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#aimChatID"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#based_near -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#based_near"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#birthday -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#birthday"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#currentProject -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#currentProject"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#depiction -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#depiction"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#depicts -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#depicts"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#dnaChecksum -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#dnaChecksum"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#familyName -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#familyName"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#family_name -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#family_name"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#firstName -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#firstName"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#focus -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#focus"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#fundedBy -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#fundedBy"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#geekcode -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#geekcode"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#gender -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#gender"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#givenName -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#givenName"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#givenname -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#givenname"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#holdsAccount -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#holdsAccount"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#homepage -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#homepage"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#icqChatID -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#icqChatID"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#img -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#img"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#interest -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#interest"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#isPrimaryTopicOf -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#isPrimaryTopicOf"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#jabberID -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#jabberID"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#knows -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#knows"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#lastName -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#lastName"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#logo -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#logo"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#made -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#made"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#maker -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#maker"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#mbox -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#mbox"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#mbox_sha1sum -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#mbox_sha1sum"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#member -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#member"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#membershipClass -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#membershipClass"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#msnChatID -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#msnChatID"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#myersBriggs -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#myersBriggs"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#name -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#name"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#nick -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#nick"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#openid -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#openid"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#page -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#page"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#pastProject -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#pastProject"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#phone -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#phone"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#plan -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#plan"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#primaryTopic -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#primaryTopic"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#publications -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#publications"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#schoolHomepage -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#schoolHomepage"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#sha1 -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#sha1"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#skypeID -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#skypeID"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#status -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#status"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#surname -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#surname"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#theme -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#theme"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#thumbnail -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#thumbnail"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#tipjar -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#tipjar"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#title -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#title"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#topic -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#topic"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#topic_interest -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#topic_interest"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#weblog -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#weblog"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#workInfoHomepage -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#workInfoHomepage"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#workplaceHomepage -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#workplaceHomepage"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#yahooChatID -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#yahooChatID"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Activity -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Activity"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#AnalogSignal -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#AnalogSignal"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Arrangement -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Arrangement"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Arranger -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Arranger"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#AudioFile -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#AudioFile"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#CD -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#CD"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Composer -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Composer"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Composition -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Composition"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Conductor -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Conductor"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#CorporateBody -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#CorporateBody"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#DAT -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#DAT"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#DCC -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#DCC"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#DVDA -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#DVDA"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#DigitalSignal -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#DigitalSignal"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ED2K -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ED2K"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Festival -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Festival"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Genre -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Genre"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Instrument -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Instrument"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Instrumentation -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Instrumentation"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Label -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Label"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Libretto -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Libretto"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Listener -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Listener"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Lyrics -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Lyrics"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MD -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MD"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MagneticTape -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MagneticTape"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Medium -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Medium"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Membership -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Membership"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Movement -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Movement"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MusicArtist -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MusicArtist"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MusicGroup -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MusicGroup"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MusicalExpression -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MusicalExpression"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MusicalItem -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MusicalItem"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MusicalManifestation -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MusicalManifestation"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MusicalWork -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MusicalWork"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Orchestration -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Orchestration"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Performance -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Performance"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Performer -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Performer"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#PublishedLibretto -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#PublishedLibretto"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#PublishedLyrics -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#PublishedLyrics"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#PublishedScore -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#PublishedScore"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Record -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Record"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Recording -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Recording"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#RecordingSession -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#RecordingSession"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Release -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Release"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ReleaseEvent -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ReleaseEvent"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ReleaseStatus -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ReleaseStatus"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ReleaseType -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ReleaseType"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#SACD -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#SACD"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Score -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Score"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Show -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Show"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Signal -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Signal"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#SignalGroup -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#SignalGroup"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#SoloMusicArtist -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#SoloMusicArtist"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Sound -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Sound"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#SoundEngineer -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#SoundEngineer"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Stream -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Stream"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Torrent -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Torrent"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Track -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Track"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Transcription -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Transcription"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Vinyl -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Vinyl"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#activity -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#activity"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#activity_end -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#activity_end"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#activity_start -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#activity_start"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#album -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#album"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#amazon_asin -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#amazon_asin"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#arranged_in -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#arranged_in"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#arrangement_of -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#arrangement_of"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#artist -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#artist"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#audiobook -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#audiobook"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#availableAs -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#availableAs"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#available_as -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#available_as"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#biography -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#biography"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#bitsPerSample -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#bitsPerSample"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#bootleg -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#bootleg"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#bpm -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#bpm"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#catalogue_number -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#catalogue_number"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#channels -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#channels"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#collaborated_with -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#collaborated_with"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#compilation -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#compilation"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#compilation_of -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#compilation_of"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#compiled -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#compiled"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#compiler -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#compiler"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#composed_in -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#composed_in"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#composer -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#composer"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#conducted -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#conducted"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#conductor -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#conductor"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#contains_sample_from -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#contains_sample_from"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#derived_from -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#derived_from"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#discography -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#discography"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#discogs -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#discogs"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#djmix_of -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#djmix_of"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#djmixed -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#djmixed"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#djmixed_by -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#djmixed_by"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#download -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#download"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#duration -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#duration"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ean -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ean"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#encodes -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#encodes"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#encoding -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#encoding"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#engineer -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#engineer"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#engineered -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#engineered"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ep -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ep"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#eventHomePage -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#eventHomePage"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#event_homepage -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#event_homepage"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#exchange_item -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#exchange_item"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#fanpage -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#fanpage"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#free_download -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#free_download"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#freedownload -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#freedownload"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#genre -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#genre"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#grid -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#grid"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#group -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#group"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#gtin -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#gtin"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#has_track -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#has_track"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#headliner -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#headliner"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#homepage -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#homepage"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#image -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#image"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#imdb -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#imdb"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#instrument -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#instrument"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#interpreter -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#interpreter"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#interview -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#interview"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ipi -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ipi"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ismn -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ismn"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#isrc -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#isrc"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#iswc -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#iswc"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#item -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#item"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#key -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#key"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#label -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#label"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#lc -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#lc"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#licence -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#licence"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#listened -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#listened"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#listener -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#listener"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#live -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#live"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#lyrics -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#lyrics"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#mailorder -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#mailorder"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#mashup_of -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#mashup_of"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#media_type -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#media_type"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#medley_of -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#medley_of"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#member -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#member"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#member_of -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#member_of"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#membership -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#membership"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#meter -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#meter"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#movement -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#movement"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#movementNum -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#movementNum"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#movement_number -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#movement_number"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#musicbrainz -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#musicbrainz"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#musicbrainz_guid -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#musicbrainz_guid"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#musicmoz -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#musicmoz"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#myspace -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#myspace"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#official -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#official"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#olga -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#olga"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#onlinecommunity -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#onlinecommunity"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#opus -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#opus"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#origin -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#origin"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#other_release_of -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#other_release_of"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#paid_download -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#paid_download"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#paiddownload -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#paiddownload"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#performance_of -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#performance_of"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#performed -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#performed"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#performed_in -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#performed_in"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#performer -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#performer"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#possess_item -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#possess_item"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#preview -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#preview"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#preview_download -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#preview_download"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#primary_instrument -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#primary_instrument"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#produced -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#produced"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#produced_score -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#produced_score"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#produced_signal -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#produced_signal"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#produced_signal_group -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#produced_signal_group"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#produced_sound -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#produced_sound"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#produced_work -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#produced_work"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#producer -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#producer"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#producesSignal -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#producesSignal"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#producesSound -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#producesSound"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#producesWork -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#producesWork"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#productOfComposition -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#productOfComposition"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#promotion -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#promotion"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#publicationOf -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#publicationOf"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#publication_of -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#publication_of"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#published -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#published"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#publishedAs -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#publishedAs"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#published_as -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#published_as"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#publisher -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#publisher"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#publishingLocation -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#publishingLocation"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#publishing_location -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#publishing_location"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#puid -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#puid"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#record -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#record"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#record_count -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#record_count"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#record_number -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#record_number"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#record_side -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#record_side"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#recordedAs -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#recordedAs"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#recorded_as -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#recorded_as"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#recorded_in -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#recorded_in"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#recording_of -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#recording_of"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#records -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#records"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#release -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#release"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#releaseStatus -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#releaseStatus"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#releaseType -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#releaseType"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#release_status -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#release_status"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#release_type -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#release_type"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#remaster_of -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#remaster_of"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#remix -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#remix"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#remix_of -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#remix_of"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#remixed -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#remixed"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#remixer -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#remixer"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#review -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#review"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sampleRate -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sampleRate"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sample_rate -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sample_rate"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sampled -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sampled"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sampledVersionOf -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sampledVersionOf"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sampled_version -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sampled_version"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sampled_version_of -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sampled_version_of"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sampler -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sampler"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sell_item -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sell_item"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#signal -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#signal"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#signalTime -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#signalTime"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#similar_to -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#similar_to"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#singer -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#singer"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#single -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#single"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#soundtrack -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#soundtrack"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#spokenword -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#spokenword"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#supporting_musician -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#supporting_musician"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#tempo -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#tempo"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#text -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#text"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#time -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#time"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#track -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#track"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#trackNum -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#trackNum"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#track_count -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#track_count"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#track_number -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#track_number"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#translation_of -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#translation_of"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#tribute_to -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#tribute_to"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#trmid -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#trmid"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#upc -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#upc"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#usedInPerformance -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#usedInPerformance"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#usedInRecording -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#usedInRecording"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#usesSound -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#usesSound"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#usesWork -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#usesWork"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#uuid -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#uuid"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#want_item -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#want_item"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#wikipedia -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#wikipedia"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//ownMusica#id -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//ownMusica#id"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//ownMusica#lfm -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//ownMusica#lfm"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//ownMusica#size -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//ownMusica#size"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//ownMusica#tag -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//ownMusica#tag"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/ontology/mo/Activity -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Activity">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Activity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/AnalogSignal -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/AnalogSignal">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#AnalogSignal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Arrangement -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Arrangement">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Arrangement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Arranger -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Arranger">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Arranger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/AudioFile -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/AudioFile">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#AudioFile"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/CD -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/CD">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#CD"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Composer -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Composer">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Composer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Composition -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Composition">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Composition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Conductor -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Conductor">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Conductor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/CorporateBody -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/CorporateBody">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#CorporateBody"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/DAT -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/DAT">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#DAT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/DCC -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/DCC">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#DCC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/DVDA -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/DVDA">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#DVDA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/DigitalSignal -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/DigitalSignal">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#DigitalSignal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/ED2K -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/ED2K">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ED2K"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Festival -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Festival">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Festival"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Genre -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Genre">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Instrument -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Instrument">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Instrument"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Instrumentation -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Instrumentation">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Instrumentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Label -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Label">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Label"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Libretto -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Libretto">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Libretto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Listener -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Listener">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Listener"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Lyrics -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Lyrics">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Lyrics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/MD -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/MD">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MD"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/MagneticTape -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/MagneticTape">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MagneticTape"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Medium -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Medium">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Medium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Membership -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Membership">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Membership"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Movement -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Movement">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Movement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/MusicArtist -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/MusicArtist">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MusicArtist"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/MusicGroup -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/MusicGroup">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MusicGroup"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/MusicalExpression -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/MusicalExpression">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MusicalExpression"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/MusicalItem -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/MusicalItem">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MusicalItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/MusicalManifestation -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/MusicalManifestation">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MusicalManifestation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/MusicalWork -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/MusicalWork">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#MusicalWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Orchestration -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Orchestration">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Orchestration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Performance -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Performance">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Performance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Performer -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Performer">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Performer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/PublishedLibretto -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/PublishedLibretto">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#PublishedLibretto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/PublishedLyrics -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/PublishedLyrics">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#PublishedLyrics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/PublishedScore -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/PublishedScore">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#PublishedScore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Record -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Record">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Record"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Recording -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Recording">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Recording"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/RecordingSession -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/RecordingSession">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#RecordingSession"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Release -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Release">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Release"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/ReleaseEvent -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/ReleaseEvent">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ReleaseEvent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/ReleaseStatus -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/ReleaseStatus">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ReleaseStatus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/ReleaseType -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/ReleaseType">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ReleaseType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/SACD -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/SACD">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#SACD"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Score -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Score">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Score"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Show -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Show">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Show"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Signal -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Signal">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Signal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/SignalGroup -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/SignalGroup">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#SignalGroup"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/SoloMusicArtist -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/SoloMusicArtist">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#SoloMusicArtist"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Sound -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Sound">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Sound"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/SoundEngineer -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/SoundEngineer">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#SoundEngineer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Stream -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Stream">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Stream"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Torrent -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Torrent">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Torrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Track -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Track">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Track"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Transcription -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Transcription">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Transcription"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Vinyl -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/Vinyl">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#Vinyl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/activity -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/activity">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#activity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/activity_end -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/activity_end">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#activity_end"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/activity_start -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/activity_start">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#activity_start"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/album -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/album">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#album"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/amazon_asin -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/amazon_asin">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#amazon_asin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/arranged_in -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/arranged_in">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#arranged_in"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/arrangement_of -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/arrangement_of">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#arrangement_of"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/artist -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/artist">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#artist"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/audiobook -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/audiobook">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#audiobook"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/availableAs -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/availableAs">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#availableAs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/available_as -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/available_as">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#available_as"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/biography -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/biography">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#biography"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/bitsPerSample -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/bitsPerSample">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#bitsPerSample"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/bootleg -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/bootleg">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#bootleg"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/bpm -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/bpm">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#bpm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/catalogue_number -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/catalogue_number">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#catalogue_number"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/channels -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/channels">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#channels"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/collaborated_with -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/collaborated_with">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#collaborated_with"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/compilation -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/compilation">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#compilation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/compilation_of -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/compilation_of">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#compilation_of"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/compiled -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/compiled">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#compiled"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/compiler -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/compiler">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#compiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/composed_in -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/composed_in">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#composed_in"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/composer -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/composer">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#composer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/conducted -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/conducted">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#conducted"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/conductor -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/conductor">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#conductor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/contains_sample_from -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/contains_sample_from">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#contains_sample_from"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/derived_from -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/derived_from">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#derived_from"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/discography -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/discography">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#discography"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/discogs -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/discogs">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#discogs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/djmix_of -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/djmix_of">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#djmix_of"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/djmixed -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/djmixed">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#djmixed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/djmixed_by -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/djmixed_by">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#djmixed_by"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/download -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/download">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#download"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/duration -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/duration">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#duration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/ean -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/ean">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ean"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/encodes -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/encodes">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#encodes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/encoding -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/encoding">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#encoding"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/engineer -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/engineer">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#engineer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/engineered -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/engineered">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#engineered"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/ep -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/ep">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ep"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/eventHomePage -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/eventHomePage">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#eventHomePage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/event_homepage -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/event_homepage">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#event_homepage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/exchange_item -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/exchange_item">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#exchange_item"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/fanpage -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/fanpage">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#fanpage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/free_download -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/free_download">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#free_download"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/freedownload -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/freedownload">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#freedownload"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/genre -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/genre">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/grid -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/grid">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#grid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/group -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/group">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#group"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/gtin -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/gtin">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#gtin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/has_track -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/has_track">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#has_track"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/headliner -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/headliner">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#headliner"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/homepage -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/homepage">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#homepage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/image -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/image">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#image"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/imdb -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/imdb">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#imdb"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/instrument -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/instrument">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#instrument"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/interpreter -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/interpreter">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#interpreter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/interview -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/interview">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#interview"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/ipi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/ipi">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ipi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/ismn -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/ismn">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#ismn"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/isrc -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/isrc">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#isrc"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/iswc -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/iswc">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#iswc"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/item -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/item">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#item"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/key -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/key">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#key"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/label -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/label">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#label"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/lc -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/lc">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#lc"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/licence -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/licence">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#licence"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/listened -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/listened">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#listened"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/listener -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/listener">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#listener"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/live -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/live">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#live"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/lyrics -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/lyrics">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#lyrics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/mailorder -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/mailorder">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#mailorder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/mashup_of -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/mashup_of">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#mashup_of"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/media_type -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/media_type">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#media_type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/medley_of -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/medley_of">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#medley_of"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/member -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/member">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#member"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/member_of -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/member_of">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#member_of"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/membership -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/membership">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#membership"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/meter -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/meter">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#meter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/movement -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/movement">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#movement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/movementNum -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/movementNum">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#movementNum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/movement_number -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/movement_number">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#movement_number"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/musicbrainz -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/musicbrainz">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#musicbrainz"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/musicbrainz_guid -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/musicbrainz_guid">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#musicbrainz_guid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/musicmoz -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/musicmoz">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#musicmoz"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/myspace -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/myspace">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#myspace"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/official -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/official">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#official"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/olga -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/olga">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#olga"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/onlinecommunity -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/onlinecommunity">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#onlinecommunity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/opus -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/opus">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#opus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/origin -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/origin">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#origin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/other_release_of -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/other_release_of">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#other_release_of"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/paid_download -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/paid_download">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#paid_download"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/paiddownload -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/paiddownload">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#paiddownload"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/performance_of -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/performance_of">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#performance_of"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/performed -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/performed">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#performed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/performed_in -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/performed_in">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#performed_in"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/performer -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/performer">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#performer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/possess_item -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/possess_item">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#possess_item"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/preview -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/preview">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#preview"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/preview_download -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/preview_download">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#preview_download"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/primary_instrument -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/primary_instrument">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#primary_instrument"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/produced -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/produced">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#produced"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/produced_score -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/produced_score">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#produced_score"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/produced_signal -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/produced_signal">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#produced_signal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/produced_signal_group -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/produced_signal_group">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#produced_signal_group"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/produced_sound -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/produced_sound">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#produced_sound"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/produced_work -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/produced_work">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#produced_work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/producer -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/producer">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#producer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/producesSignal -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/producesSignal">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#producesSignal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/producesSound -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/producesSound">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#producesSound"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/producesWork -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/producesWork">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#producesWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/productOfComposition -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/productOfComposition">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#productOfComposition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/promotion -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/promotion">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#promotion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/publicationOf -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/publicationOf">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#publicationOf"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/publication_of -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/publication_of">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#publication_of"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/published -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/published">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#published"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/publishedAs -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/publishedAs">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#publishedAs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/published_as -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/published_as">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#published_as"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/publisher -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/publisher">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#publisher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/publishingLocation -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/publishingLocation">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#publishingLocation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/publishing_location -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/publishing_location">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#publishing_location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/puid -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/puid">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#puid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/record -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/record">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#record"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/record_count -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/record_count">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#record_count"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/record_number -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/record_number">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#record_number"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/record_side -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/record_side">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#record_side"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/recordedAs -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/recordedAs">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#recordedAs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/recorded_as -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/recorded_as">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#recorded_as"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/recorded_in -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/recorded_in">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#recorded_in"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/recording_of -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/recording_of">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#recording_of"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/records -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/records">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#records"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/release -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/release">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#release"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/releaseStatus -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/releaseStatus">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#releaseStatus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/releaseType -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/releaseType">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#releaseType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/release_status -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/release_status">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#release_status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/release_type -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/release_type">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#release_type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/remaster_of -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/remaster_of">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#remaster_of"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/remix -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/remix">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#remix"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/remix_of -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/remix_of">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#remix_of"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/remixed -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/remixed">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#remixed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/remixer -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/remixer">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#remixer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/review -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/review">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#review"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/sampleRate -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/sampleRate">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sampleRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/sample_rate -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/sample_rate">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sample_rate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/sampled -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/sampled">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sampled"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/sampledVersionOf -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/sampledVersionOf">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sampledVersionOf"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/sampled_version -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/sampled_version">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sampled_version"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/sampled_version_of -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/sampled_version_of">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sampled_version_of"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/sampler -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/sampler">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sampler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/sell_item -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/sell_item">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#sell_item"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/signal -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/signal">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#signal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/signalTime -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/signalTime">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#signalTime"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/similar_to -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/similar_to">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#similar_to"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/singer -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/singer">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#singer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/single -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/single">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#single"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/soundtrack -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/soundtrack">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#soundtrack"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/spokenword -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/spokenword">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#spokenword"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/supporting_musician -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/supporting_musician">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#supporting_musician"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/tempo -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/tempo">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#tempo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/text -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/text">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#text"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/time -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/time">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#time"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/track -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/track">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#track"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/trackNum -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/trackNum">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#trackNum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/track_count -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/track_count">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#track_count"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/track_number -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/track_number">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#track_number"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/translation_of -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/translation_of">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#translation_of"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/tribute_to -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/tribute_to">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#tribute_to"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/trmid -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/trmid">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#trmid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/upc -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/upc">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#upc"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/usedInPerformance -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/usedInPerformance">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#usedInPerformance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/usedInRecording -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/usedInRecording">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#usedInRecording"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/usesSound -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/usesSound">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#usesSound"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/usesWork -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/usesWork">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#usesWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/uuid -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/uuid">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#uuid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/want_item -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/want_item">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#want_item"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/mo/wikipedia -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/mo/wikipedia">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//mont#wikipedia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/Agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/Agent">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Agent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/Document -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/Document">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Document"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/Group -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/Group">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Group"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/Image -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/Image">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Image"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/LabelProperty -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/LabelProperty">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#LabelProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/OnlineAccount -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/OnlineAccount">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#OnlineAccount"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/OnlineChatAccount -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/OnlineChatAccount">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#OnlineChatAccount"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/OnlineEcommerceAccount -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/OnlineEcommerceAccount">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#OnlineEcommerceAccount"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/OnlineGamingAccount -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/OnlineGamingAccount">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#OnlineGamingAccount"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/Organization -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/Organization">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/Person -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/Person">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/PersonalProfileDocument -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/PersonalProfileDocument">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#PersonalProfileDocument"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/Project -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/Project">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#Project"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/account -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/account">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#account"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/accountName -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/accountName">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#accountName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/accountServiceHomepage -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/accountServiceHomepage">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#accountServiceHomepage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/age -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/age">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#age"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/aimChatID -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/aimChatID">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#aimChatID"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/based_near -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/based_near">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#based_near"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/birthday -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/birthday">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#birthday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/currentProject -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/currentProject">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#currentProject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/depiction -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/depiction">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#depiction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/depicts -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/depicts">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#depicts"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/dnaChecksum -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/dnaChecksum">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#dnaChecksum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/familyName -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/familyName">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#familyName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/family_name -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/family_name">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#family_name"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/firstName -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/firstName">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#firstName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/focus -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/focus">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#focus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/fundedBy -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/fundedBy">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#fundedBy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/geekcode -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/geekcode">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#geekcode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/gender -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/gender">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#gender"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/givenName -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/givenName">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#givenName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/givenname -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/givenname">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#givenname"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/holdsAccount -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/holdsAccount">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#holdsAccount"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/homepage -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/homepage">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#homepage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/icqChatID -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/icqChatID">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#icqChatID"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/img -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/img">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#img"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/interest -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/interest">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#interest"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/isPrimaryTopicOf -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/isPrimaryTopicOf">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#isPrimaryTopicOf"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/jabberID -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/jabberID">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#jabberID"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/knows -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/knows">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#knows"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/lastName -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/lastName">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#lastName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/logo -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/logo">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#logo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/made -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/made">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#made"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/maker -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/maker">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#maker"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/mbox -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/mbox">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#mbox"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/mbox_sha1sum -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/mbox_sha1sum">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#mbox_sha1sum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/member -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/member">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#member"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/membershipClass -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/membershipClass">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#membershipClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/msnChatID -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/msnChatID">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#msnChatID"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/myersBriggs -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/myersBriggs">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#myersBriggs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/name -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/name">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#name"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/nick -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/nick">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#nick"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/openid -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/openid">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#openid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/page -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/page">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#page"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/pastProject -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/pastProject">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#pastProject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/phone -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/phone">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#phone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/plan -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/plan">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/primaryTopic -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/primaryTopic">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#primaryTopic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/publications -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/publications">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#publications"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/schoolHomepage -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/schoolHomepage">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#schoolHomepage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/sha1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/sha1">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#sha1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/skypeID -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/skypeID">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#skypeID"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/status -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/status">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/surname -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/surname">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#surname"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/theme -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/theme">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/thumbnail -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/thumbnail">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#thumbnail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/tipjar -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/tipjar">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#tipjar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/title -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/title">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#title"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/topic -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/topic">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#topic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/topic_interest -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/topic_interest">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#topic_interest"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/weblog -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/weblog">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#weblog"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/workInfoHomepage -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/workInfoHomepage">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#workInfoHomepage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/workplaceHomepage -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/workplaceHomepage">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#workplaceHomepage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.google.com.br/rdf/yahooChatID -->
+
+    <owl:NamedIndividual rdf:about="http://www.google.com.br/rdf/yahooChatID">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//foaf#yahooChatID"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internal/ownMusica/id -->
+
+    <owl:NamedIndividual rdf:about="http://www.sideresearchgroup.com.br/internal/ownMusica/id">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//ownMusica#id"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internal/ownMusica/lfm -->
+
+    <owl:NamedIndividual rdf:about="http://www.sideresearchgroup.com.br/internal/ownMusica/lfm">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//ownMusica#lfm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internal/ownMusica/size -->
+
+    <owl:NamedIndividual rdf:about="http://www.sideresearchgroup.com.br/internal/ownMusica/size">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//ownMusica#size"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internal/ownMusica/tag -->
+
+    <owl:NamedIndividual rdf:about="http://www.sideresearchgroup.com.br/internal/ownMusica/tag">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20151215003619_1//ownMusica#tag"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

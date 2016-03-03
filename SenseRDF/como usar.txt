@@ -1,0 +1,2 @@
+Para inicializar o programa, execute a classe SenseRdf
+Ao abrir a interface, primeiramente adicione um vocabulário, em seguida adicione um domínio e, por fim, peça para que seja gerado o arquivo rdf.

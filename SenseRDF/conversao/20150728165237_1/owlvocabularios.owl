@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//"
+     xml:base="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#contributor -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#contributor"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#coverage -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#coverage"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#creator -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#creator"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#date -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#date"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#description -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#description"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#format -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#format"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#identifier -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#identifier"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#language -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#language"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#publisher -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#publisher"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#relation -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#relation"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#rights -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#rights"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#source -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#source"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#subject -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#subject"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#title -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#title"/>
+    
+
+
+    <!-- http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#type -->
+
+    <owl:Class rdf:about="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#type"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.dc.com.br/contributor -->
+
+    <owl:NamedIndividual rdf:about="http://www.dc.com.br/contributor">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#contributor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dc.com.br/coverage -->
+
+    <owl:NamedIndividual rdf:about="http://www.dc.com.br/coverage">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#coverage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dc.com.br/creator -->
+
+    <owl:NamedIndividual rdf:about="http://www.dc.com.br/creator">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#creator"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dc.com.br/date -->
+
+    <owl:NamedIndividual rdf:about="http://www.dc.com.br/date">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#date"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dc.com.br/description -->
+
+    <owl:NamedIndividual rdf:about="http://www.dc.com.br/description">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#description"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dc.com.br/format -->
+
+    <owl:NamedIndividual rdf:about="http://www.dc.com.br/format">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#format"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dc.com.br/identifier -->
+
+    <owl:NamedIndividual rdf:about="http://www.dc.com.br/identifier">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#identifier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dc.com.br/language -->
+
+    <owl:NamedIndividual rdf:about="http://www.dc.com.br/language">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dc.com.br/publisher -->
+
+    <owl:NamedIndividual rdf:about="http://www.dc.com.br/publisher">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#publisher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dc.com.br/relation -->
+
+    <owl:NamedIndividual rdf:about="http://www.dc.com.br/relation">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#relation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dc.com.br/rights -->
+
+    <owl:NamedIndividual rdf:about="http://www.dc.com.br/rights">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#rights"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dc.com.br/source -->
+
+    <owl:NamedIndividual rdf:about="http://www.dc.com.br/source">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#source"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dc.com.br/subject -->
+
+    <owl:NamedIndividual rdf:about="http://www.dc.com.br/subject">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dc.com.br/title -->
+
+    <owl:NamedIndividual rdf:about="http://www.dc.com.br/title">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#title"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dc.com.br/type -->
+
+    <owl:NamedIndividual rdf:about="http://www.dc.com.br/type">
+        <rdf:type rdf:resource="http://www.sideresearchgroup.com.br/internalontology/vconversao/20150728165237_1//dc#type"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://wwww.sidereserarchgroup.com.br/vconversao/20151208223550_2//"
+     xml:base="http://wwww.sidereserarchgroup.com.br/vconversao/20151208223550_2//"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://wwww.sidereserarchgroup.com.br/vconversao/20151208223550_2//"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- #album -->
+
+    <owl:Class rdf:about="#album"/>
+    
+
+
+    <!-- #artist -->
+
+    <owl:Class rdf:about="#artist"/>
+    
+
+
+    <!-- #duration -->
+
+    <owl:Class rdf:about="#duration"/>
+    
+
+
+    <!-- #fulltrack -->
+
+    <owl:Class rdf:about="#fulltrack"/>
+    
+
+
+    <!-- #id -->
+
+    <owl:Class rdf:about="#id"/>
+    
+
+
+    <!-- #image -->
+
+    <owl:Class rdf:about="#image"/>
+    
+
+
+    <!-- #lfm -->
+
+    <owl:Class rdf:about="#lfm"/>
+    
+
+
+    <!-- #listeners -->
+
+    <owl:Class rdf:about="#listeners"/>
+    
+
+
+    <!-- #mbid -->
+
+    <owl:Class rdf:about="#mbid"/>
+    
+
+
+    <!-- #name -->
+
+    <owl:Class rdf:about="#name"/>
+    
+
+
+    <!-- #playcount -->
+
+    <owl:Class rdf:about="#playcount"/>
+    
+
+
+    <!-- #rank -->
+
+    <owl:Class rdf:about="#rank"/>
+    
+
+
+    <!-- #releasedate -->
+
+    <owl:Class rdf:about="#releasedate"/>
+    
+
+
+    <!-- #size -->
+
+    <owl:Class rdf:about="#size"/>
+    
+
+
+    <!-- #status -->
+
+    <owl:Class rdf:about="#status"/>
+    
+
+
+    <!-- #streamable -->
+
+    <owl:Class rdf:about="#streamable"/>
+    
+
+
+    <!-- #tag -->
+
+    <owl:Class rdf:about="#tag"/>
+    
+
+
+    <!-- #toptags -->
+
+    <owl:Class rdf:about="#toptags"/>
+    
+
+
+    <!-- #track -->
+
+    <owl:Class rdf:about="#track"/>
+    
+
+
+    <!-- #tracks -->
+
+    <owl:Class rdf:about="#tracks"/>
+    
+
+
+    <!-- #url -->
+
+    <owl:Class rdf:about="#url"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/album -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/album">
+        <rdf:type rdf:resource="#album"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/artist -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/artist">
+        <rdf:type rdf:resource="#artist"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/duration -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/duration">
+        <rdf:type rdf:resource="#duration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/fulltrack -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/fulltrack">
+        <rdf:type rdf:resource="#fulltrack"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/id -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/id">
+        <rdf:type rdf:resource="#id"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/image -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/image">
+        <rdf:type rdf:resource="#image"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/lfm -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/lfm">
+        <rdf:type rdf:resource="#lfm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/listeners -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/listeners">
+        <rdf:type rdf:resource="#listeners"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/mbid -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/mbid">
+        <rdf:type rdf:resource="#mbid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/name -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/name">
+        <rdf:type rdf:resource="#name"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/playcount -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/playcount">
+        <rdf:type rdf:resource="#playcount"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/rank -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/rank">
+        <rdf:type rdf:resource="#rank"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/releasedate -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/releasedate">
+        <rdf:type rdf:resource="#releasedate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/size -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/size">
+        <rdf:type rdf:resource="#size"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/status -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/status">
+        <rdf:type rdf:resource="#status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/streamable -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/streamable">
+        <rdf:type rdf:resource="#streamable"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/tag -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/tag">
+        <rdf:type rdf:resource="#tag"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/toptags -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/toptags">
+        <rdf:type rdf:resource="#toptags"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/track -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/track">
+        <rdf:type rdf:resource="#track"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/tracks -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/tracks">
+        <rdf:type rdf:resource="#tracks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://SideReserachGroup.com/ontologies/url -->
+
+    <owl:NamedIndividual rdf:about="http://SideReserachGroup.com/ontologies/url">
+        <rdf:type rdf:resource="#url"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

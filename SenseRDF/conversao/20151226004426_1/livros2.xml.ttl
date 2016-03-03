@@ -1,0 +1,73 @@
+@prefix ownPublicacao:  <http://www.sideresearchgroup.com.br/internal/ownPublicacao/> .
+@prefix foaf:    <http://www.google.com.br/rdf/> .
+@prefix dc:      <http://www.dc.com.br/> .
+
+<http://wwww.sidereserarchgroup.com.br/language/language1/creator1>
+      dc:rights "A" ;
+      foaf:familyName "Edit. Erica" ;
+      foaf:homepage "Erica" ;
+      foaf:tipjar "Av." .
+
+<http://wwww.sidereserarchgroup.com.br/language/language4/creator1>
+      dc:rights "B" ;
+      foaf:familyName "Edit. Campus" ;
+      foaf:homepage "Campus" ;
+      foaf:tipjar "Logradouro" .
+
+<http://wwww.sidereserarchgroup.com.br/language/language2/creator1>
+      dc:rights "B" ;
+      foaf:familyName "Edit. Campus" ;
+      foaf:homepage "Campus" ;
+      foaf:tipjar "Logradouro" .
+
+<http://wwww.sidereserarchgroup.com.br/language>
+      foaf:language <http://wwww.sidereserarchgroup.com.br/language/language4> , <http://wwww.sidereserarchgroup.com.br/language/language3> , <http://wwww.sidereserarchgroup.com.br/language/language2> , <http://wwww.sidereserarchgroup.com.br/language/language1> .
+
+<http://wwww.sidereserarchgroup.com.br/language/language4>
+      dc:identifier "13" ;
+      foaf:creator <http://wwww.sidereserarchgroup.com.br/language/language4/creator1> ;
+      foaf:isPrimaryTopicOf
+              "4" ;
+      foaf:publications "2010" ;
+      foaf:title "Web Services" ;
+      ownPublicacao:author
+              "Carlota" , "Joaquim Silva" .
+
+<http://wwww.sidereserarchgroup.com.br/language/language3/creator1>
+      dc:rights "Cruz das Armas" ;
+      foaf:familyName "Edit. Elsevier" ;
+      foaf:homepage "Alguma coisa" ;
+      foaf:tipjar "Avenida" .
+
+<http://wwww.sidereserarchgroup.com.br/language/language3>
+      dc:identifier "12" ;
+      foaf:creator <http://wwww.sidereserarchgroup.com.br/language/language3/creator1> ;
+      foaf:isPrimaryTopicOf
+              "3" ;
+      foaf:publications "2014" ;
+      foaf:title ".NET" ;
+      ownPublicacao:author
+              "Ana" , "Carla" , "Maria" .
+
+<http://wwww.sidereserarchgroup.com.br/language/language2>
+      dc:identifier "11" ;
+      foaf:creator <http://wwww.sidereserarchgroup.com.br/language/language2/creator1> ;
+      foaf:isPrimaryTopicOf
+              "2" ;
+      foaf:publications "2012" ;
+      foaf:title "ASP" ;
+      ownPublicacao:author
+              "José" .
+
+<http://wwww.sidereserarchgroup.com.br/>
+      foaf:language <http://wwww.sidereserarchgroup.com.br/language> .
+
+<http://wwww.sidereserarchgroup.com.br/language/language1>
+      dc:identifier "10" ;
+      foaf:creator <http://wwww.sidereserarchgroup.com.br/language/language1/creator1> ;
+      foaf:isPrimaryTopicOf
+              "1" ;
+      foaf:publications "2012" ;
+      foaf:title "PHP" ;
+      ownPublicacao:author
+              "Ana" , "Maria" .
